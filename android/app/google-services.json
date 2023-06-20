@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "890623885258",
+    "project_id": "neuroapp-535a5",
+    "storage_bucket": "neuroapp-535a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890623885258:android:ffeacf451435b355be1933",
+        "android_client_info": {
+          "package_name": "com.apps.neuros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890623885258-1icivq5urm27r4oq2qmtvcen67ubo0th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl4hXtzZRnciYsELAAEEefkCzEwjzNOeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890623885258-1icivq5urm27r4oq2qmtvcen67ubo0th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
