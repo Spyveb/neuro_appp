@@ -239,7 +239,7 @@ class _TestPusrchaseState extends StateMVC<TestPurchase> {
                           margin: EdgeInsets.all(7.0),
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.amber,
+                              backgroundColor: Colors.amber
                             ),
                             onPressed: () async {
                               print(

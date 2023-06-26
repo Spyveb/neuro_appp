@@ -91,7 +91,7 @@ class _LoginState extends StateMVC<LoginScreen> {
                   Align(
                     alignment: Alignment.center,
                     child: Container(
-                      child: SvgPicture.asset('assets/images/logo.svg'),
+                      child: SvgPicture.asset('assets/images/logo.svg',height: getProportionateScreenHeight(130)),
                     ),
                   ),
                   Align(
@@ -103,7 +103,7 @@ class _LoginState extends StateMVC<LoginScreen> {
                             "The app for like minded people".toUpperCase(),
                             style: TextStyle(
                                 fontSize: getProportionalFontSizeMain(12),
-                                fontFamily: 'poppins',
+                                // fontFamily: 'poppins',
                                 letterSpacing: 1.68,
                                 fontWeight: FontWeight.w600,
                                 color: Colors.white))),
@@ -348,21 +348,15 @@ class _LoginState extends StateMVC<LoginScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.pushNamed(context, '/TermsOfUseOrPolicyScreen',
-                          arguments: new RouteArgument(isTerms: true));
-                    },
-                    child: Container(
-                      child: Text("Terms of Use",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                              decoration: TextDecoration.underline,
-                              fontSize: getProportionalFontSizeMain(14),
-                              fontFamily: 'poppins',
-                              fontWeight: FontWeight.w900,
-                              color: Helper.hexToColor("#5CAEE2"))),
-                    ),
+                  Container(
+                    child: Text("Terms of Use",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            // decoration: TextDecoration.underline,
+                            fontSize: getProportionalFontSizeMain(14),
+                            fontFamily: 'poppins',
+                            fontWeight: FontWeight.w500,
+                            color: Helper.hexToColor("#BFC5D9"))),
                   ),
                   Container(
                     child: Text("and  ",
@@ -386,7 +380,7 @@ class _LoginState extends StateMVC<LoginScreen> {
                               fontSize: getProportionalFontSizeMain(14),
                               fontFamily: 'poppins',
                               fontWeight: FontWeight.w900,
-                              color: Helper.hexToColor("#5CAEE2"))),
+                              color: Helper.hexToColor("#FF4350"))),
                     ),
                   ),
                 ],

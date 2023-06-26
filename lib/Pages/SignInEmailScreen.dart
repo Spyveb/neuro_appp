@@ -53,7 +53,7 @@ class _SignInEmailState extends StateMVC<SignInEmailScreen> {
                               alignment: Alignment.center,
                               child: Container(
                                 child:
-                                    SvgPicture.asset('assets/images/logo.svg'),
+                                    SvgPicture.asset('assets/images/logo.svg',height: getProportionateScreenHeight(130)),
                               ),
                             ),
                             Align(
@@ -66,7 +66,7 @@ class _SignInEmailState extends StateMVC<SignInEmailScreen> {
                                           .toUpperCase(),
                                       style: TextStyle(
                                           fontSize: getProportionalFontSize(12),
-                                          fontFamily: 'poppins',
+                                          // fontFamily: 'poppins',
                                           letterSpacing: 1.68,
                                           fontWeight: FontWeight.w600,
                                           color: Colors.white))),

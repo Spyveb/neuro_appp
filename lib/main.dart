@@ -86,7 +86,7 @@ class _MyAppState extends StateMVC<MyApp> {
           debugShowCheckedModeBanner: false,
           theme: ThemeMixin.getTheme(context),
           onGenerateRoute: RouteGenerator.generateRoute,
-          initialRoute: '/Login',
+          initialRoute: '/Dashboard',
         ),
       );
     }

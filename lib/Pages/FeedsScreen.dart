@@ -72,7 +72,7 @@ class _FeedsState extends StateMVC<FeedsScreen> {
                           top: getProportionateScreenHeightMain(50),
                           bottom: getProportionateScreenHeightMain(10)),
                       child: Image.asset(
-                        "assets/images/neuro.png",
+                        "assets/images/syndeo.png",
                         width: getProportionateScreenWidthMain(160),
                         height: getProportionateScreenHeightMain(28),
                       ),
@@ -89,7 +89,7 @@ class _FeedsState extends StateMVC<FeedsScreen> {
                         ),
                         children: [
                           TextSpan(
-                            text: "${mode}".toLowerCase(),
+                            text: "Dating".toLowerCase(),
                             style: TextStyle(
                               fontSize: getProportionalFontSizeMain(11),
                               fontFamily: 'poppins',
@@ -462,7 +462,7 @@ class _FeedsState extends StateMVC<FeedsScreen> {
                                     fontSize: getProportionalFontSizeMain(25),
                                     fontFamily: 'poppins',
                                     fontWeight: FontWeight.w700,
-                                    color: Helper.hexToColor("#5BAEE2"))),
+                                    color: Helper.hexToColor("#FF4350"))),
                           ),
                         )
                       : Container(),

@@ -170,7 +170,7 @@ class _BuyNudegeState extends StateMVC<BuyNudegeScreen> {
               Column(
                 children: [
                   Container(
-                    height: getProportionateScreenHeight(41),
+                    height: getProportionateScreenHeight(50),
                   ),
                   Container(
                     width: getProportionateScreenWidth(130),
@@ -187,7 +187,23 @@ class _BuyNudegeState extends StateMVC<BuyNudegeScreen> {
                     alignment: Alignment.center,
                     width: getProportionateScreenWidth(125),
                     height: getProportionateScreenWidth(116),
-                    child: Image.asset("assets/images/time_icon.png"),
+                    child: ShaderMask(
+                        shaderCallback: (bounds) {
+                          return LinearGradient(
+                              colors: [
+                                Helper.hexToColor("#FF4350"),
+                                Helper.hexToColor("#F5347F"),
+                                Helper.hexToColor("#BF00FF")
+                              ],
+                              begin: Alignment.topLeft,
+                              end: Alignment.bottomRight,
+                              stops: [
+                                .2,
+                                .5,
+                                2,
+                              ]).createShader(bounds);
+                        },
+                        child: Image.asset("assets/images/time_icon.png")),
                   ),
                   Container(
                     height: getProportionateScreenHeight(52),
@@ -203,7 +219,7 @@ class _BuyNudegeState extends StateMVC<BuyNudegeScreen> {
                             fontSize: getProportionalFontSize(14),
                             fontFamily: 'poppins',
                             fontWeight: FontWeight.w500,
-                            color: Helper.hexToColor("#ffffff"))),
+                            color: Helper.hexToColor("#393939"))),
                   ),
                   Container(
                     height: getProportionateScreenHeight(60),

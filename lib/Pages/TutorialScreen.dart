@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
+import 'package:neuro/Helper/Helper.dart';
 import 'package:neuro/Helper/size_config.dart';
 import 'package:page_transition/page_transition.dart';
 
@@ -24,11 +25,12 @@ class _TutorialState extends StateMVC<TutorialScreen> {
               Align(
                 alignment: Alignment.topCenter,
                 child: Container(
-                  margin: EdgeInsets.only(top: getProportionateScreenHeight(25)),
+                  margin:
+                      EdgeInsets.only(top: getProportionateScreenHeight(25)),
                   child: Image.asset(
-                    "assets/images/neuro.png",
+                    "assets/images/syndeo.png",
                     width: getProportionateScreenWidth(160),
-                    //height: getProportionateScreenHeight(28),
+                    height: getProportionateScreenHeight(28),
                   ),
                 ),
               ),

@@ -29,7 +29,7 @@ class HashTagController extends ControllerMVC {
 
   HashTagController() {
     this.scaffoldKey = new GlobalKey<ScaffoldState>();
-    loader = Helper.overlayLoader(this.scaffoldKey.currentContext);
+    // loader = Helper.overlayLoader(this.scaffoldKey.currentContext);
     loadAsset();
   }
 

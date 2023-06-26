@@ -31,7 +31,7 @@ class _DashboardState extends StateMVC<DashboardScreen>
   final iconList = <String>[
     "assets/images/feed.png",
     "assets/images/messages.svg",
-    "assets/images/group.svg",
+    // "assets/images/group.svg",
     "assets/images/profile.svg",
   ];
 
@@ -96,7 +96,7 @@ class _DashboardState extends StateMVC<DashboardScreen>
             children: [
               FeedsScreen(),
               MessagesScreen(),
-              GroupMessagesScreen(),
+              // GroupMessagesScreen(),
               KeepAlivePage(child: ProfileScreen())
             ],
           ),
@@ -105,7 +105,7 @@ class _DashboardState extends StateMVC<DashboardScreen>
           itemCount: iconList.length,
           tabBuilder: (int index, bool isActive) {
             final color = isActive
-                ? Helper.hexToColor('#5BAEE2')
+                ? Helper.hexToColor('#FF4350')
                 : Helper.hexToColor("#A8A7A7");
             return Column(
               mainAxisSize: MainAxisSize.min,

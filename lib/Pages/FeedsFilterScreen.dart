@@ -188,13 +188,15 @@ class _FeedsFilterScreen extends StateMVC<FeedsFilterScreen> {
                         top: getProportionateScreenHeight(10),
                       ),
                       child: RangeSlider(
-                          activeColor: Helper.hexToColor("#5BAEE2"),
+                          activeColor: Helper.hexToColor("#FF4350"),
                           inactiveColor: Helper.hexToColor("#E4E7F1"),
+
                           min: 0,
                           max: 100,
                           values: dis_values,
                           labels: dis_labels,
                           divisions: 100,
+
                           onChanged: (value) {
                             print("START: ${value.start}, End: ${value.end}");
                             setState(() {
@@ -203,6 +205,7 @@ class _FeedsFilterScreen extends StateMVC<FeedsFilterScreen> {
                                   "${value.start.toInt().toString()} mi",
                                   "${value.end.toInt().toString()} mi");
                             });
+
                           }),
                     ),
                   ],
