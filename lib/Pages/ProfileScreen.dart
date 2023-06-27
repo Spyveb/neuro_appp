@@ -433,7 +433,7 @@ class _ProfileState extends StateMVC<ProfileScreen> {
                                                         11.5)),
                                             decoration: BoxDecoration(
                                                 color: Helper.hexToColor(
-                                                    "#EAF7FF"),
+                                                    "#FFD9DC"),
                                                 borderRadius: BorderRadius.all(
                                                     Radius.circular(107))),
                                             child: Text(i.toUpperCase(),
@@ -446,7 +446,7 @@ class _ProfileState extends StateMVC<ProfileScreen> {
                                                     letterSpacing: 1.68,
                                                     fontWeight: FontWeight.w600,
                                                     color: Helper.hexToColor(
-                                                        "#42A1DC"))),
+                                                        "#FF4350"))),
                                           );
                                         }).toList(),
                                       ),
@@ -641,7 +641,7 @@ class _ProfileState extends StateMVC<ProfileScreen> {
                                         fontSize: getProportionalFontSize(12),
                                         fontFamily: 'poppins',
                                         fontWeight: FontWeight.w600,
-                                        color: Helper.hexToColor("#C078BA"))),
+                                        color: Helper.hexToColor("#FF4350"))),
                               ),
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
@@ -652,7 +652,7 @@ class _ProfileState extends StateMVC<ProfileScreen> {
                                   ),
                                   Icon(
                                     Icons.keyboard_arrow_right,
-                                    color: Helper.hexToColor("#53AAE0"),
+                                    color: Helper.hexToColor("#FF4350"),
                                     size: getProportionateScreenHeight(20),
                                   )
                                 ],

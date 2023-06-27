@@ -40,7 +40,7 @@ class _MatchState extends StateMVC<MatchScreen> {
                     margin:
                         EdgeInsets.only(top: getProportionateScreenHeightMain(56)),
                     child: SvgPicture.asset(
-                      "assets/images/neurowhite.svg",
+                      "assets/images/syndeo.svg",color: Colors.white,
                     ),
                   ),
                 ),

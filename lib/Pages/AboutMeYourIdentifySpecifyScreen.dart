@@ -149,7 +149,7 @@ class _AboutMeYourIdentifySpecifyState
                                       fontSize: getProportionalFontSize(9),
                                       fontFamily: 'poppins',
                                       fontWeight: FontWeight.w700,
-                                      color: Helper.hexToColor("#5CAEE2"))),
+                                      color: Helper.hexToColor("#FF4350"))),
                             ),
                           ),
                         ],

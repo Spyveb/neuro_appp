@@ -305,7 +305,7 @@ class _EditScreenState extends StateMVC<EditProfileScreen> {
                       fontSize: getProportionalFontSize(16),
                       fontFamily: 'poppins',
                       fontWeight: FontWeight.w600,
-                      color: Helper.hexToColor("#5BAEE2")),
+                      color: Helper.hexToColor("#FF4350")),
                 ),
               ),
             ),
@@ -345,7 +345,7 @@ class _EditScreenState extends StateMVC<EditProfileScreen> {
                               borderRadius:
                               BorderRadius.all(Radius.circular(120.0)),
                               border: Border.all(
-                                  color: Helper.hexToColor("#5BAEE2"),
+                                  color: Helper.hexToColor("#FF4350"),
                                   width: 3)),
                           child: Stack(
                             children: [
@@ -966,14 +966,14 @@ class _EditScreenState extends StateMVC<EditProfileScreen> {
                                         fontSize: getProportionalFontSize(12),
                                         fontFamily: 'poppins',
                                         fontWeight: FontWeight.w600,
-                                        color: Helper.hexToColor("#C078BA"))),
+                                        color: Helper.hexToColor("#FF4350"))),
                               ),
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Icon(
                                     Icons.keyboard_arrow_right,
-                                    color: Helper.hexToColor("#53AAE0"),
+                                    color: Helper.hexToColor("#FF4350"),
                                     size: getProportionateScreenHeight(20),
                                   )
                                 ],
@@ -1034,7 +1034,7 @@ class _EditScreenState extends StateMVC<EditProfileScreen> {
                                         fontSize: getProportionalFontSize(12),
                                         fontFamily: 'poppins',
                                         fontWeight: FontWeight.w600,
-                                        color: Helper.hexToColor("#C078BA"))),
+                                        color: Helper.hexToColor("#FF4350"))),
                               ),
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
@@ -1056,7 +1056,7 @@ class _EditScreenState extends StateMVC<EditProfileScreen> {
                                   ),
                                   Icon(
                                     Icons.keyboard_arrow_right,
-                                    color: Helper.hexToColor("#53AAE0"),
+                                    color: Helper.hexToColor("#FF4350"),
                                     size: getProportionateScreenHeight(20),
                                   )
                                 ],
@@ -1135,14 +1135,14 @@ class _EditScreenState extends StateMVC<EditProfileScreen> {
                                         fontSize: getProportionalFontSize(12),
                                         fontFamily: 'poppins',
                                         fontWeight: FontWeight.w600,
-                                        color: Helper.hexToColor("#C078BA"))),
+                                        color: Helper.hexToColor("#FF4350"))),
                               ),
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Icon(
                                     Icons.keyboard_arrow_right,
-                                    color: Helper.hexToColor("#53AAE0"),
+                                    color: Helper.hexToColor("#FF4350"),
                                     size: getProportionateScreenHeight(20),
                                   )
                                 ],

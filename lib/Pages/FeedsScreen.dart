@@ -71,8 +71,8 @@ class _FeedsState extends StateMVC<FeedsScreen> {
                       margin: EdgeInsets.only(
                           top: getProportionateScreenHeightMain(50),
                           bottom: getProportionateScreenHeightMain(10)),
-                      child: Image.asset(
-                        "assets/images/syndeo.png",
+                      child: SvgPicture.asset(
+                        "assets/images/syndeo.svg",
                         width: getProportionateScreenWidthMain(160),
                         height: getProportionateScreenHeightMain(28),
                       ),

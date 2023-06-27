@@ -73,6 +73,8 @@ flutter:
     - assets/cfg/
     - assets/fonts/
     - assets/images/personality/
+    - assets/images/2x/
+    - assets/images/3x/
 
   fonts:
     - family: poppins

@@ -577,7 +577,7 @@ class _SettingsState extends StateMVC<SettingsScreen> {
                     ),
                     Icon(
                       Icons.keyboard_arrow_right,
-                      color: Helper.hexToColor("#53AAE0"),
+                      color: Helper.hexToColor("#FF4350"),
                       size: getProportionateScreenHeight(20),
                     )
                   ],
@@ -615,7 +615,7 @@ class _SettingsState extends StateMVC<SettingsScreen> {
                     ),
                     Icon(
                       Icons.keyboard_arrow_right,
-                      color: Helper.hexToColor("#53AAE0"),
+                      color: Helper.hexToColor("#FF4350"),
                       size: getProportionateScreenHeight(20),
                     )
                   ],
@@ -648,7 +648,7 @@ class _SettingsState extends StateMVC<SettingsScreen> {
                           ),
                           Icon(
                             Icons.keyboard_arrow_right,
-                            color: Helper.hexToColor("#53AAE0"),
+                            color: Helper.hexToColor("#FF4350"),
                             size: getProportionateScreenHeight(20),
                           )
                         ],
@@ -682,7 +682,7 @@ class _SettingsState extends StateMVC<SettingsScreen> {
                     ),
                     Icon(
                       Icons.keyboard_arrow_right,
-                      color: Helper.hexToColor("#53AAE0"),
+                      color: Helper.hexToColor("#FF4350"),
                       size: getProportionateScreenHeight(20),
                     )
                   ],
@@ -717,7 +717,7 @@ class _SettingsState extends StateMVC<SettingsScreen> {
                     ),
                     Icon(
                       Icons.keyboard_arrow_right,
-                      color: Helper.hexToColor("#53AAE0"),
+                      color: Helper.hexToColor("#FF4350"),
                       size: getProportionateScreenHeight(20),
                     )
                   ],
@@ -761,7 +761,7 @@ class _SettingsState extends StateMVC<SettingsScreen> {
                                 fontSize: getProportionalFontSize(12),
                                 fontFamily: 'poppins',
                                 fontWeight: FontWeight.w600,
-                                color: Helper.hexToColor("#C078BA"))),
+                                color: Helper.hexToColor("#FF4350"))),
                       ),
                     ],
                   ),
